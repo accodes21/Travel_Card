@@ -15,7 +15,9 @@ function App() {
   return (
     <>
     <Header/>
+    <section className='cards'>
     {cards}
+    </section>
     {/* <Card/> */}
     </>
   );

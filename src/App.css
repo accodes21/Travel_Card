@@ -59,6 +59,47 @@ header h1{
 
 .descp{
     margin-top: 15px;
-    width: 60%;
+    width: 70%;
     font-size: 1.2em;
+}
+
+@media screen and (max-width:1000px) {
+    .descp{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .info h1{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .descp{
+        font-size: 1em;
+    }
+    .date{
+        font-size: 1.1em;
+    }
+    .gmap{
+        font-size: 1em;
+    }
+    .location{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .card .image{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .card .image{
+        width: 180px;
+        height: 180px;
+        image-orientation: initial;
+    }
 }
