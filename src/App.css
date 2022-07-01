@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: #F55A5A;
+    height: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: #fff;
+}
+
+.card{
+    display: flex;
+    margin: 1em 1.5em;
+}
+
+.card .image{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.card .info{
+    padding: 1em;
+}
+
+.location{
+    letter-spacing: 2px;
+    margin-right: 10px;
+    text-transform:uppercase;
+}
+
+.gmap{
+    color: #918E9B;
+    text-decoration: underline;
+}
+
+.info h1{
+    font-size: 3rem;
+}
+
+.date{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+.descp{
+    margin-top: 15px;
+    width: 60%;
+    font-size: 1.2em;
+}
